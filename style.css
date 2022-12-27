@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,300&family=Dancing+Script&family=Didact+Gothic&family=Judson:ital@1&family=Martel:wght@300&display=swap");
+body {
+  margin: 0 auto;
+  padding: 40px 100px;
+  font-family: "Judson", serif;
+}
+.block {
+  border: 1px solid;
+  background-color: rgb(240, 218, 157);
+  padding: 0px 5px;
+}
+.h1 {
+  font-size: 27px;
+  margin-left: 50px;
+  font-weight: 500;
+  cursor: default;
+}
+.first {
+  background-color: rgb(254, 253, 252);
+  height: auto;
+  padding: 20px 20px;
+  margin-bottom: 5px;
+}
+.ul {
+  display: flex;
+  align-items: center;
+}
+.li {
+  text-decoration: none;
+  display: flex;
+}
+.li2 {
+  text-decoration: none;
+  display: flex;
+}
+.close {
+  height: 30px;
+  font-size: 32px;
+  cursor: pointer;
+  margin-top: -16px;
+  margin-left: -20px;
+  font-weight: 500;
+  color: rgb(39, 38, 38);
+}
+.like {
+  cursor: pointer;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-right: 70px;
+  color: grey;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.liked {
+  color: rgb(236, 19, 80);
+}
+.dress {
+  width: 150px;
+  height: 150px;
+}
+.text {
+  font-size: 20px;
+  width: 270px;
+  font-weight: 500;
+  font-family: "Judson", serif;
+  cursor: default;
+}
+.plus {
+  display: flex;
+  height: 25px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.minus {
+  display: flex;
+  height: 25px;
+  width: 25px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 70px;
+  cursor: pointer;
+}
+.num {
+  cursor: default;
+  font-size: 27px;
+  font-weight: 500;
+}
+.res {
+  cursor: none;
+  font-size: 27px;
+  font-weight: 500;
+  cursor: default;
+}
+
+@media (max-width: 400px) {
+  .liked {
+    color: rgb(236, 19, 80);
+  }
+  .block {
+    border: 1px solid;
+    background-color: rgb(240, 218, 157);
+    padding: 0px 5px;
+  }
+  .first {
+    background-color: rgb(254, 253, 252);
+    height: auto;
+    margin-bottom: 5px;
+    display: flex;
+  }
+  .dress {
+    width: 150px;
+    height: 150px;
+    margin-top: -40px;
+    margin-left: -190px;
+  }
+  .close {
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: -155px;
+    margin-left: 90px;
+    font-weight: 500;
+    color: rgb(39, 38, 38);
+  }
+  .h1 {
+    font-size: 18px;
+    margin-left: 45px;
+    font-weight: 500;
+    cursor: default;
+  }
+  .like {
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: -50px;
+    margin-right: 70px;
+    color: grey;
+    height: 22px;
+    margin-top: -154px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .text {
+    font-size: 13px;
+    width: 270px;
+    font-weight: 500;
+    font-family: "Judson", serif;
+    cursor: default;
+    margin-left: -145px;
+    margin-top: 160px;
+  }
+  .plus {
+    display: flex;
+    height: 15px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -160px;
+    margin-right: 30px;
+    margin-top: 200px;
+    cursor: pointer;
+    width: 15px;
+  }
+  .num {
+    cursor: default;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 220px;
+    margin-left: -90px;
+  }
+  .minus {
+    display: flex;
+    height: 15px;
+    width: 15px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -60px;
+    margin-right: 70px;
+    cursor: pointer;
+    margin-top: 200px;
+  }
+  .res {
+    cursor: default;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: default;
+    margin-top: 300px;
+    margin-left: -70px;
+  }
+}
